@@ -10,11 +10,11 @@ def real_division_operation(a, b):
 def subtraction_operation(a, b):
     return a - b
 
-def power_operation(a, b):
+def pow(2, b):
     return a ** b
 
 while True:
-    print("1Calculator Menu:")
+    print("Calculator Menu:")
     print("Sum")
     print("Real Division")
     print("Subtraction")
@@ -41,7 +41,7 @@ while True:
     elif choice == '3':
         result = subtraction_operation(a, b)
     elif choice == '4':
-        result = power_operation(a, b)
+        result = pow(a, b)
     else:
         print("Invalid")
         continue
