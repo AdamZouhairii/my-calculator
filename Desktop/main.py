@@ -14,12 +14,12 @@ def power_operation(a, b):
     return a ** b
 
 while True:
-    print("Calculator Menu:")
-    print("1. Sum")
-    print("2. Real Division")
-    print("3. Subtraction")
-    print("4. Power")
-    print("5. Exit")
+    print("1Calculator Menu:")
+    print("Sum")
+    print("Real Division")
+    print("Subtraction")
+    print("Power")
+    print("Exit")
 
     choice = input("Enter your choice : ")
 
