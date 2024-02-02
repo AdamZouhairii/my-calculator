@@ -10,7 +10,7 @@ def real_division_operation(a, b):
 def subtraction_operation(a, b):
     return a - b
 
-def pow(2, b):
+def pow(a, b):
     return a ** b
 
 while True:
